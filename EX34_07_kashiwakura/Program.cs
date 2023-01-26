@@ -14,13 +14,13 @@ namespace Interface_ShapeSolid
                         new RightTriangularPrism(2,3,5),
                         new Sphere(3),
                         new Column<RectAngle>(new RectAngle(2,3),5),
-                        new Column<RegularHexagon>(new RegularHexagon(6), 5)
+                        new Column<Hexagon>(new Hexagon(6), 5)
         };
             Column<RectAngle> box2 = new Column<RectAngle>(new RectAngle(2,5),3);
 
             Column<Triangle> trianglePrism = new Column<Triangle>(new Triangle(3, 2, 1), 4);
             //正六角柱
-            Column<RegularHexagon> regularHexagonalPrism = new Column<RegularHexagon>(new RegularHexagon(6), 5);
+            Column<Hexagon> hexagonalPrism = new Column<Hexagon>(new Hexagon(6), 5);
 
 
             foreach (ISolid solid in solids)

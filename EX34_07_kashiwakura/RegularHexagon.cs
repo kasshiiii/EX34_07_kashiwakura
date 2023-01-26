@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace ShapeSolid
 {
-    internal class RegularHexagon : IShape
+    internal class Hexagon : IShape
     {
         readonly float width;
         readonly float height;
-        public RegularHexagon(float width)
+        public Hexagon(float width)
         {
             this.width = width;
         }
@@ -32,7 +32,7 @@ namespace ShapeSolid
         {
             get
             {
-                return (float)(width*6);
+                return width*6;
             }
         }
 
