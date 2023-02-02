@@ -12,9 +12,10 @@ namespace ShapeSolid
     {
         readonly float width;
         readonly float height;
-        public Hexagon(float width)
+        public Hexagon(float width,float height = 0)
         {
             this.width = width;
+            this.height = height;
         }
         public float Width
         {
